@@ -1,13 +1,12 @@
 /*estilos generales*/
 
 .basic-style {
-	background-color: #d0f5a9;
+	background-color: #FFFFFF;
 	font-family: georgia, serif;
 	color: #555555;
 	margin: 0;
 }
 .link {
-	color: #53a6bb;
 	font-size: 16px;
 	text-decoration: none;
 }
@@ -28,11 +27,12 @@
 /*cabecera*/
 .logotype {
 	padding: 2px;
-	background-color: #F2f5a9;
+	background-color: #181818;
 	width:100%;
 }
 
 .logotype-title {
+	color: #e8e8e8;
 	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
@@ -45,6 +45,7 @@
 	margin: auto;
 }
 .phrase {
+	color: #900C3F;
 	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
@@ -73,7 +74,7 @@
 	width: 85%;
 	margin: auto;
 	text-align: left;
-	background-color: rgba(242, 245, 169, .4);
+	background-color: rgba(232, 232, 232, .6);
 	padding: 10px;
 	border-radius: 10px;
 	-webkit-box-shadow: -10px 3px 19px -2px rgba(181,177,181,0.74);
@@ -105,6 +106,11 @@
 /*fin biografias*/
 
 /*Footer*/
+.foot {
+	background-color: #181818;
+	color: #e8e8e8;
+	padding-top: 4px;
+}
 .foot h3 {
 	font-size: 12px;
 }
@@ -112,10 +118,11 @@
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 .footlink{
-	color: #555555;
+	color: #e8e8e8;
 	font-size: 12px;
 	text-decoration: none;
 }
