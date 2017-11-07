@@ -26,16 +26,43 @@
 
 /*cabecera*/
 .logotype {
-	padding: 2px;
 	background-color: #181818;
 	width:100%;
 }
 
 .logotype-title {
 	color: #e8e8e8;
-	font-size: 30px;
-	text-align: center;
+	font-size: 20px;
 	font-weight: bold;
+	display: inline-block;
+	width: 50%;
+}
+
+.menu {
+	display: inline-block;
+	background-color: #181818;
+	color: #e8e8e8;
+	position: relative;
+	width:40%;
+}
+.menu-icon {
+	width: 20%;
+}
+.menu-expand {
+	display: none;
+	position: absolute;
+	top: 60px;
+	background-color: #181818;
+	color: #e8e8e8;
+	padding-right:10px;
+}
+.menu-expand:hover .menu-particular {
+	display: block;
+}
+.menu-particular {
+	list-style-type: none;
+	text-align: left;
+	font-size: 14px;
 }
 /*fin cabecera*/
 
