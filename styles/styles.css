@@ -163,15 +163,17 @@
 	background-color: #181818;
 	color: #e8e8e8;
 	padding-top: 4px;
-}
-.foot h3 {
-	font-size: 12px;
+	font-size: 14px;
+/* Este contenido es para la versión web
+  display: flex;
+  justify-content: space-between
+*/
+
 }
 .footbox{
-	width: 80%;
+	width: 80%;/*width: 300px;*/
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 .footlink{
@@ -183,5 +185,6 @@
 .adalablog {
 	width: 100%;
 
+	/*padding-top: 10px;*/
 }
 /*Fin footer*/
