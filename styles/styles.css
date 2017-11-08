@@ -97,7 +97,7 @@
 /*fin fortalezas y debilidades*/
 
 /*biografias*/
-	.box-biography {
+.box-biography {
 	width: 85%;
 	margin: auto;
 	text-align: left;
@@ -109,52 +109,53 @@
 	box-shadow: -10px 3px 19px -2px rgba(181,177,181,0.74);
 	margin-top: 10px;
 	margin-bottom: 10px;
-	}
+}
 
-	.photo {
+.photo {
 	width: 100px;
 	height: 100px;
 	margin: 5px;
 	float: left;
-	}
-	.twitter-icon {
+}
+.twitter-icon {
 	height: 40px;
 	width: 40px;
 	position: relative;
-	}
+}
 
-	.linkedin-icon {
+.linkedin-icon {
 	height: 40px;
 	width: 40px;
 	position: relative;
-	}
-	.github-icon {
-		height: 40px;
-		width: 40px;
-		position: relative;
-		}
-	.gmail-icon {
-			height: 40px;
-			width: 40px;
-			position: relative;
+}
+.github-icon {
+	height: 40px;
+	width: 40px;
+	position: relative;
+}
+.gmail-icon {
+	height: 40px;
+	width: 40px;
+	position: relative;
+}
+.twitter {
+	list-style: none;
+	display: inline;
+}
 
-		}
-	.twitter {
-		list-style: none;
-		display: inline;
-	}
-	.linkedin {
-		list-style: none;
-		display: inline;
-	}
-	.github {
-		list-style: none;
-		display: inline;
-	}
-	.gmail {
-		list-style: none;
-		display: inline;
-	}
+.linkedin {
+	list-style: none;
+	display: inline;
+}
+
+.github {
+	list-style: none;
+	display: inline;
+}
+.gmail {
+	list-style: none;
+	display: inline;
+}
 /*fin biografias*/
 
 /*Footer*/
