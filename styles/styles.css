@@ -39,23 +39,29 @@
 }
 .menu {
 	display: inline-block;
-	width: 40%;
+	width: 50%;
 }
 .menu-icon {
 	width: 30%;
+	text-decoration: none;
+	color: #e8e8e8;
 }
 .menu-movil {
 	position: relative;
 	list-style:none;
+	color: #e8e8e8;
+	text-decoration: none;
 }
 .menu-expand {
 	position: absolute;
-	top: 100%;
+	top: 200%;
 	background-color: #181818;
 	display: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 #menu-movil-link {
-	
+
 }
 .menu-movil:target .menu-expand {
 	display: block;
