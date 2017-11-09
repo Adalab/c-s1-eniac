@@ -111,27 +111,53 @@
 	box-shadow: -10px 3px 19px -2px rgba(181,177,181,0.74);
 	margin-top: 10px;
 	margin-bottom: 10px;
-	}
+}
 
 .photo {
 	width: 100px;
 	height: 100px;
 	margin: 5px;
 	float: left;
-	}
-.twitter {
+}
+.twitter-icon {
 	height: 40px;
 	width: 40px;
 	position: relative;
-	left: 30%;
-	}
+}
+
+.linkedin-icon {
+	height: 40px;
+	width: 40px;
+	position: relative;
+}
+.github-icon {
+	height: 40px;
+	width: 40px;
+	position: relative;
+}
+.gmail-icon {
+	height: 40px;
+	width: 40px;
+	position: relative;
+}
+.twitter {
+	list-style: none;
+	display: inline;
+}
 
 .linkedin {
-	height: 40px;
-	width: 40px;
-	position: relative;
-	left: 40%;
-	}
+	list-style: none;
+	display: inline;
+}
+
+.github {
+	list-style: none;
+	display: inline;
+}
+.gmail {
+	list-style: none;
+	display: inline;
+}
 /*fin biografias*/
 
 /*Footer*/
@@ -139,15 +165,17 @@
 	background-color: #181818;
 	color: #e8e8e8;
 	padding-top: 4px;
-}
-.foot h3 {
-	font-size: 12px;
+	font-size: 14px;
+/* Este contenido es para la versión web
+  display: flex;
+  justify-content: space-between
+*/
+
 }
 .footbox{
-	width: 80%;
+	width: 80%;/*width: 300px;*/
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 .footlink{
@@ -159,5 +187,6 @@
 .adalablog {
 	width: 100%;
 
+	/*padding-top: 10px;*/
 }
 /*Fin footer*/
