@@ -8,7 +8,7 @@
 }
 .link {
 	font-size: 16px;
-	text-decoration: none;
+	color: #900C3F;
 }
 .link:hover {
 	font-weight: bold;
@@ -127,56 +127,39 @@
 	background-color: rgba(232, 232, 232, .6);
 	padding: 10px;
 	border-radius: 10px;
-
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
 .photo {
 	width: 100px;
 	height: 100px;
 	margin: 5px;
 	float: left;
 }
+.social-networks {
+	display:flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0px;
+}
 .twitter-icon {
 	height: 40px;
 	width: 40px;
-	position: relative;
 }
 
 .linkedin-icon {
 	height: 40px;
 	width: 40px;
-	position: relative;
 }
 .github-icon {
 	height: 40px;
 	width: 40px;
-	position: relative;
 }
 .gmail-icon {
 	height: 40px;
 	width: 40px;
-	position: relative;
-}
-.twitter {
-	list-style: none;
-	display: inline;
 }
 
-.linkedin {
-	list-style: none;
-	display: inline;
-}
-
-.github {
-	list-style: none;
-	display: inline;
-}
-.gmail {
-	list-style: none;
-	display: inline;
-}
 /*fin biografias*/
 
 /*Footer*/
@@ -199,7 +182,7 @@
 
 .footlink{
 	color: #e8e8e8;
-	font-size: 12px;
+	font-size: 14px;
 	text-decoration: none;
 }
 
