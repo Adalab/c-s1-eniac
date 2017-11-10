@@ -28,27 +28,28 @@
 .logotype {
 	background-color: #181818;
 	width:100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .logotype-title {
 	color: #e8e8e8;
 	font-size: 20px;
 	font-weight: bold;
-	display: inline-block;
-	width: 50%;
 }
 .menu {
-	display: inline-block;
-	width: 45%;
+	list-style:none;
+	padding: 10px;
+	width: 100%;
 }
 .menu-icon {
-	width: 30%;
 	text-decoration: none;
 	color: #e8e8e8;
+	width: 100%;
 }
 .menu-movil {
 	position: relative;
-	list-style:none;
 	color: #e8e8e8;
 	text-decoration: none;
 }
@@ -57,22 +58,28 @@
 	top: 200%;
 	background-color: #181818;
 	display: none;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	list-style: none;
+	padding: 10px;
 }
 #menu-movil-link {
 
 }
 .menu-movil:target .menu-expand {
-	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 	transition: .3s all ease-in;
 }
 
 .menu-particular {
-	list-style: none;
 	padding-right: 20px;
 	padding-bottom: 20px;
 }
+.menu-particular a {
+	color: #e8e8e8;
+	text-decoration: none;
+}
+
 /*fin cabecera*/
 
 /*intro*/
