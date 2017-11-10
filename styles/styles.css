@@ -131,45 +131,30 @@
 	margin: 5px;
 	float: left;
 }
+.social-networks {
+	display:flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0px;
+}
 .twitter-icon {
 	height: 40px;
 	width: 40px;
-	position: relative;
 }
 
 .linkedin-icon {
 	height: 40px;
 	width: 40px;
-	position: relative;
 }
 .github-icon {
 	height: 40px;
 	width: 40px;
-	position: relative;
 }
 .gmail-icon {
 	height: 40px;
 	width: 40px;
-	position: relative;
-}
-.twitter {
-	list-style: none;
-	display: inline;
 }
 
-.linkedin {
-	list-style: none;
-	display: inline;
-}
-
-.github {
-	list-style: none;
-	display: inline;
-}
-.gmail {
-	list-style: none;
-	display: inline;
-}
 /*fin biografias*/
 
 /*Footer*/
