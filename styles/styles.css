@@ -77,6 +77,13 @@
 	font-weight: bold;
 	text-align: center;
 }
+.phrase a{
+	text-decoration: none;
+	color: #900C3F;
+}
+.cite {
+	font-size: 24px;
+}
 .box {
 	padding: 85%;
 	margin: 85%;
