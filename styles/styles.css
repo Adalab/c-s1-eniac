@@ -120,9 +120,7 @@
 	background-color: rgba(232, 232, 232, .6);
 	padding: 10px;
 	border-radius: 10px;
-	-webkit-box-shadow: -10px 3px 19px -2px rgba(181,177,181,0.74);
-	-moz-box-shadow: -10px 3px 19px -2px rgba(181,177,181,0.74);
-	box-shadow: -10px 3px 19px -2px rgba(181,177,181,0.74);
+
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
