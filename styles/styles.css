@@ -218,7 +218,7 @@
 /*Fin footer*/
 /*MEDIAQUERIES*/
 @media all and (min-width: 768px){
-<<<<<<< HEAD
+
 	/*BIOGRAPHY*/
 	.flex-biography{
 		display: flex;
@@ -226,7 +226,8 @@
 	}
 	.box-biography {
 		width: 20%;
-=======
+	}
+
 	/*CABECERA*/
 	.logotype-title-mobile {
 		display: none;
@@ -234,7 +235,6 @@
 	.menu {
 		display: none;
 	}
-
 	.menu-desktop {
 		display: flex;
 		flex-direction: row;
@@ -242,7 +242,6 @@
 		list-style: none;
 		padding: 0;
 		color: #e8e8e8;
->>>>>>> 5f00e9ffa6dc525d9d976bdb679bcfc5dc4a9341
 	}
 
 	.knew-more {
