@@ -32,7 +32,7 @@
 
 .logotype-box {
 	display: flex;
-	flex-wrap: row;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	padding-left: 20px;
@@ -45,6 +45,8 @@
 	font-size: 32px;
 	padding: 10px;
 	font-weight: bold;
+	flex-grow:1;
+	text-align: center;
 }
 .logotype-title-text {
 	display: none;
@@ -178,29 +180,36 @@
 .foot {
 	background-color: #181818;
 	color: #e8e8e8;
-	padding-top: 4px;
+	padding: 5px;
 	font-size: 14px;
-/* Este contenido es para la versión web
   display: flex;
-  justify-content: space-between
-*/
-
+	flex-direction: column;
 }
 .footbox{
-	width: 80%;/*width: 300px;*/
+	min-width: 320px ;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .footlink{
 	color: #e8e8e8;
 	font-size: 12px;
 	text-decoration: none;
 }
-
 .adalablog {
+	display: block;
+	margin: 14px auto;
+	max-width: 250px;
 	width: 100%;
-
-	/*padding-top: 10px;*/
 }
 /*Fin footer*/
+/*MEDIAQUERIES*/
+@media all and (min-width: 768px){
+
+	/*FOOTER*/
+	.foot {
+		flex-direction: row;
+	}
+	.footlink{
+		font-size: 16px;
+	}
+}
