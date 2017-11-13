@@ -90,6 +90,19 @@
 	text-decoration: none;
 }
 
+.menu-desktop {
+	display: none;
+}
+
+.menu-desktop-specific {
+	padding: 10px;
+}
+
+.menu-desktop-specific a {
+	text-decoration: none;
+	color: #e8e8e8;
+}
+
 /*fin cabecera*/
 
 /*intro*/
@@ -201,6 +214,22 @@
 /*Fin footer*/
 /*MEDIAQUERIES*/
 @media all and (min-width: 768px){
+	/*CABECERA*/
+	.logotype-title {
+		display: none;
+	}
+	.menu {
+		display: none;
+	}
+
+	.menu-desktop {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		list-style: none;
+		padding: 0;
+		color: #e8e8e8;
+	}
 
 	/*FOOTER*/
 	.foot {
