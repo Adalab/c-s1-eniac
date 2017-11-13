@@ -183,10 +183,10 @@
 	padding: 5px;
 	font-size: 14px;
   display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 }
 .footbox{
-	min-width: 320px ;
+	min-width: 200px ;
 	margin-left: auto;
 	margin-right: auto;
 }
