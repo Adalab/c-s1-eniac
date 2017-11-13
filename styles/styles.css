@@ -247,7 +247,6 @@
 		color: #e8e8e8;
 	}
 
-<<<<<<< HEAD
 	/*principal*/
 .images-desktop {
 	display:flex;
@@ -255,12 +254,9 @@
 	margin: auto;
 	max-width: 768px;
 }
-
 	.images {
 		display: none;
 	}
-
-=======
 	.knew-more {
 		list-style: none;
 		padding: 10px;
@@ -279,7 +275,6 @@
 	}
 	#knew-more-click{
 	}
->>>>>>> 5a23fc016d9a42ba2a9ba6b59f6433daa6ce8c93
 	/*FOOTER*/
 	.foot {
 		flex-direction: row;
