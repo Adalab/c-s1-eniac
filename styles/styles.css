@@ -127,6 +127,9 @@
 	font-size: 24px;
 	font-style: italic;
 }
+.images-desktop {
+	display: none;
+}
 .images {
 	float: right;
 	margin-right: 10px;
@@ -232,6 +235,18 @@
 		list-style: none;
 		padding: 0;
 		color: #e8e8e8;
+	}
+
+	/*principal*/
+.images-desktop {
+	display:flex;
+	width; 100%;
+	margin: auto;
+	max-width: 768px;
+}
+
+	.images {
+		display: none;
 	}
 
 	/*FOOTER*/
