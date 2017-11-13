@@ -29,7 +29,6 @@
 	background-color: #181818;
 	width: 100%;
 }
-
 .logotype-box {
 	display: flex;
 	flex-direction: row;
@@ -39,7 +38,6 @@
 	padding-right: 25px;
 	box-sizing: border-box;
 }
-
 .logotype-title-mobile {
 	color: #e8e8e8;
 	font-size: 32px;
@@ -48,7 +46,10 @@
 	flex-grow:1;
 	text-align: center;
 }
-.logotype-title-text {
+.logotype-title-desktop {
+	display: none;
+}
+.team-building-desktop {
 	display: none;
 }
 .menu {
@@ -204,6 +205,36 @@
 /*Fin footer*/
 /*MEDIAQUERIES*/
 @media all and (min-width: 768px){
+	.logotype-title-desktop {
+		display: block;
+	}
+	.team-building-mobile {
+		display: none;
+	}
+	.team-building-desktop {
+		display: flex;
+		flex-direction: row;
+	}
+	.team-building-desktop-text {
+		display: none;
+	}
+	.team-building-desktop-strengths, .team-building-desktop-weaknesses {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border: 2px solid #181818;
+		padding: 10px;
+	}
+	.team-building-desktop:target .team-building-desktop-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	#strengths {
+	}
+	#weaknesses {
+	}
+}
 
 	/*FOOTER*/
 	.foot {
@@ -212,4 +243,3 @@
 	.footlink{
 		font-size: 16px;
 	}
-}
