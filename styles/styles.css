@@ -38,7 +38,12 @@
 	padding-right: 25px;
 	box-sizing: border-box;
 }
+<<<<<<< HEAD
 .logotype-title-mobile {
+=======
+
+.logotype-title {
+>>>>>>> 5a23fc016d9a42ba2a9ba6b59f6433daa6ce8c93
 	color: #e8e8e8;
 	font-size: 32px;
 	padding: 10px;
@@ -46,12 +51,15 @@
 	flex-grow:1;
 	text-align: center;
 }
+<<<<<<< HEAD
 .logotype-title-desktop {
 	display: none;
 }
 .team-building-desktop {
 	display: none;
 }
+=======
+>>>>>>> 5a23fc016d9a42ba2a9ba6b59f6433daa6ce8c93
 .menu {
 	list-style: none;
 	padding: 10px;
@@ -144,6 +152,7 @@
 /*fin fortalezas y debilidades*/
 
 /*biografias*/
+
 .box-biography {
 	width: 85%;
 	margin: auto;
@@ -169,6 +178,9 @@
 	justify-content: center;
 	list-style: none;
 	padding: 0px;
+}
+.twitter{
+	background-image: url(/images/twitter-icon.png);
 }
 .twitter-icon {
 	height: 40px;
@@ -219,6 +231,7 @@
 /*MEDIAQUERIES*/
 @media all and (min-width: 768px){
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.logotype-title-desktop {
 		display: block;
 	}
@@ -250,6 +263,15 @@
 	}
 }
 =======
+	/*BIOGRAPHY*/
+	.flex-biography{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.box-biography {
+		width: 20%;
+>>>>>>> 5a23fc016d9a42ba2a9ba6b59f6433daa6ce8c93
+=======
 	/*CABECERA*/
 	.logotype-title-mobile {
 		display: none;
@@ -265,9 +287,28 @@
 		list-style: none;
 		padding: 0;
 		color: #e8e8e8;
+>>>>>>> 5f00e9ffa6dc525d9d976bdb679bcfc5dc4a9341
 	}
 >>>>>>> 5f00e9ffa6dc525d9d976bdb679bcfc5dc4a9341
 
+	.knew-more {
+		list-style: none;
+		padding: 10px;
+		width: 100%;
+	}
+	.bioparagraph-desktop{
+		display: none;
+		position: relative;
+		text-decoration: none;
+	}
+	.knew-more:target .bioparagraph-desktop{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		transition: .3s all ease-in;
+	}
+	#knew-more-click{
+	}
 	/*FOOTER*/
 	.foot {
 		flex-direction: row;
@@ -275,3 +316,28 @@
 	.footlink{
 		font-size: 16px;
 	}
+<<<<<<< HEAD
+=======
+}
+/*
+
+.menu-movil {
+	position: relative;
+	text-decoration: none;
+}
+.menu-expand {
+	position: absolute;
+	top: 200%;
+	display: none;
+	list-style: none;
+	padding: 10px;
+}
+#menu-movil-link {
+}
+.menu-movil:target .menu-expand {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	transition: .3s all ease-in;
+}*/
+>>>>>>> 5a23fc016d9a42ba2a9ba6b59f6433daa6ce8c93
