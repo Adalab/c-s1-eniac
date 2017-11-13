@@ -40,13 +40,16 @@
 	box-sizing: border-box;
 }
 
-.logotype-title {
+.logotype-title-mobile {
 	color: #e8e8e8;
 	font-size: 32px;
 	padding: 10px;
 	font-weight: bold;
 	flex-grow:1;
 	text-align: center;
+}
+.logotype-title-text {
+	display: none;
 }
 .menu {
 	list-style: none;
