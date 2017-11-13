@@ -40,16 +40,13 @@
 	box-sizing: border-box;
 }
 
-.logotype-title-mobile {
+.logotype-title {
 	color: #e8e8e8;
 	font-size: 32px;
 	padding: 10px;
 	font-weight: bold;
 	flex-grow:1;
 	text-align: center;
-}
-.logotype-title-text {
-	display: none;
 }
 .menu {
 	list-style: none;
@@ -130,6 +127,7 @@
 /*fin fortalezas y debilidades*/
 
 /*biografias*/
+
 .box-biography {
 	width: 85%;
 	margin: auto;
@@ -155,6 +153,9 @@
 	justify-content: center;
 	list-style: none;
 	padding: 0px;
+}
+.twitter{
+	background-image: url(/images/twitter-icon.png);
 }
 .twitter-icon {
 	height: 40px;
@@ -204,7 +205,33 @@
 /*Fin footer*/
 /*MEDIAQUERIES*/
 @media all and (min-width: 768px){
+	/*BIOGRAPHY*/
+	.flex-biography{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.box-biography {
+		width: 20%;
+	}
 
+	.knew-more {
+		list-style: none;
+		padding: 10px;
+		width: 100%;
+	}
+	.bioparagraph-desktop{
+		display: none;
+		position: relative;
+		text-decoration: none;
+	}
+	.knew-more:target .bioparagraph-desktop{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		transition: .3s all ease-in;
+	}
+	#knew-more-click{
+	}
 	/*FOOTER*/
 	.foot {
 		flex-direction: row;
@@ -213,3 +240,24 @@
 		font-size: 16px;
 	}
 }
+/*
+
+.menu-movil {
+	position: relative;
+	text-decoration: none;
+}
+.menu-expand {
+	position: absolute;
+	top: 200%;
+	display: none;
+	list-style: none;
+	padding: 10px;
+}
+#menu-movil-link {
+}
+.menu-movil:target .menu-expand {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	transition: .3s all ease-in;
+}*/
