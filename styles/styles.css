@@ -229,7 +229,7 @@
 		flex-direction: row;
 	}
 	.team-building-desktop-text {
-		display: block;
+		display: none;
 	}
 	.team-building-desktop-strengths, .team-building-desktop-weaknesses {
 		display: flex;
@@ -239,9 +239,7 @@
 		padding: 10px;
 	}
 	.team-building-desktop:target .team-building-desktop-text {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
+		display: block;
 	}
 	#strengths {
 	}
