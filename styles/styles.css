@@ -13,15 +13,12 @@
 .link:hover {
 	font-weight: bold;
 }
-
 .link:focus {
 	font-weight: bold;
 }
-
 .basic-content {
 	font-size: 16px;
 }
-
 /*fin estilos generales*/
 
 /*cabecera*/
@@ -29,7 +26,6 @@
 	background-color: #181818;
 	width: 100%;
 }
-
 .logotype-box {
 	display: flex;
 	flex-direction: row;
@@ -39,7 +35,6 @@
 	padding-right: 25px;
 	box-sizing: border-box;
 }
-
 .logotype-title {
 	color: #e8e8e8;
 	font-size: 32px;
@@ -80,7 +75,6 @@
 	justify-content: flex-start;
 	transition: .3s all ease-in;
 }
-
 .menu-particular {
 	padding-right: 20px;
 	padding-bottom: 20px;
@@ -89,20 +83,16 @@
 	color: #e8e8e8;
 	text-decoration: none;
 }
-
 .menu-desktop {
 	display: none;
 }
-
 .menu-desktop-specific {
 	padding: 10px;
 }
-
 .menu-desktop-specific a {
 	text-decoration: none;
 	color: #e8e8e8;
 }
-
 /*fin cabecera*/
 
 /*intro*/
@@ -143,7 +133,6 @@
 /*fin fortalezas y debilidades*/
 
 /*biografias*/
-
 .box-biography {
 	width: 85%;
 	margin: auto;
@@ -154,7 +143,6 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
 .photo {
 	width: 100px;
 	height: 100px;
@@ -190,7 +178,6 @@
 	height: 40px;
 	width: 40px;
 }
-
 /*fin biografias*/
 
 /*Footer*/
