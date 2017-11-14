@@ -38,7 +38,6 @@
 	padding-right: 25px;
 	box-sizing: border-box;
 }
-<<<<<<< HEAD
 .logotype-title-mobile {
 =======
 
@@ -136,6 +135,9 @@
 	font-size: 24px;
 	font-style: italic;
 }
+.images-desktop {
+	display: none;
+}
 .images {
 	float: right;
 	margin-right: 10px;
@@ -232,6 +234,7 @@
 @media all and (min-width: 768px){
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.logotype-title-desktop {
 		display: block;
 	}
@@ -263,6 +266,9 @@
 	}
 }
 =======
+=======
+
+>>>>>>> d84e445aedf657cda5fe18fbfdbf847d57699d26
 	/*BIOGRAPHY*/
 	.flex-biography{
 		display: flex;
@@ -270,8 +276,13 @@
 	}
 	.box-biography {
 		width: 20%;
+<<<<<<< HEAD
 >>>>>>> 5a23fc016d9a42ba2a9ba6b59f6433daa6ce8c93
 =======
+=======
+	}
+
+>>>>>>> d84e445aedf657cda5fe18fbfdbf847d57699d26
 	/*CABECERA*/
 	.logotype-title-mobile {
 		display: none;
@@ -279,7 +290,6 @@
 	.menu {
 		display: none;
 	}
-
 	.menu-desktop {
 		display: flex;
 		flex-direction: row;
@@ -287,10 +297,19 @@
 		list-style: none;
 		padding: 0;
 		color: #e8e8e8;
->>>>>>> 5f00e9ffa6dc525d9d976bdb679bcfc5dc4a9341
 	}
 >>>>>>> 5f00e9ffa6dc525d9d976bdb679bcfc5dc4a9341
 
+	/*principal*/
+.images-desktop {
+	display:flex;
+	width; 100%;
+	margin: auto;
+	max-width: 768px;
+}
+	.images {
+		display: none;
+	}
 	.knew-more {
 		list-style: none;
 		padding: 10px;
