@@ -13,15 +13,12 @@
 .link:hover {
 	font-weight: bold;
 }
-
 .link:focus {
 	font-weight: bold;
 }
-
 .basic-content {
 	font-size: 16px;
 }
-
 /*fin estilos generales*/
 
 /*cabecera*/
@@ -29,7 +26,6 @@
 	background-color: #181818;
 	width: 100%;
 }
-
 .logotype-box {
 	display: flex;
 	flex-direction: row;
@@ -40,13 +36,19 @@
 	box-sizing: border-box;
 }
 
-.logotype-title {
+.logotype-title-mobile {
 	color: #e8e8e8;
 	font-size: 32px;
 	padding: 10px;
 	font-weight: bold;
 	flex-grow:1;
 	text-align: center;
+}
+.logotype-title-desktop {
+	display: none;
+}
+.team-building-desktop {
+	display: none;
 }
 .menu {
 	list-style: none;
@@ -80,7 +82,6 @@
 	justify-content: flex-start;
 	transition: .3s all ease-in;
 }
-
 .menu-particular {
 	padding-right: 20px;
 	padding-bottom: 20px;
@@ -89,20 +90,16 @@
 	color: #e8e8e8;
 	text-decoration: none;
 }
-
 .menu-desktop {
 	display: none;
 }
-
 .menu-desktop-specific {
 	padding: 10px;
 }
-
 .menu-desktop-specific a {
 	text-decoration: none;
 	color: #e8e8e8;
 }
-
 /*fin cabecera*/
 
 /*intro*/
@@ -143,7 +140,6 @@
 /*fin fortalezas y debilidades*/
 
 /*biografias*/
-
 .box-biography {
 	width: 85%;
 	margin: auto;
@@ -154,7 +150,6 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
 .photo {
 	width: 100px;
 	height: 100px;
@@ -190,7 +185,6 @@
 	height: 40px;
 	width: 40px;
 }
-
 /*fin biografias*/
 
 /*Footer*/
@@ -221,6 +215,35 @@
 /*Fin footer*/
 /*MEDIAQUERIES*/
 @media all and (min-width: 768px){
+	.logotype-title-desktop {
+		display: block;
+	}
+	.team-building-mobile {
+		display: none;
+	}
+	.team-building-desktop {
+		display: flex;
+		flex-direction: row;
+	}
+	.team-building-desktop-text {
+		display: none;
+	}
+	.team-building-desktop-strengths, .team-building-desktop-weaknesses {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border: 2px solid #181818;
+		padding: 10px;
+	}
+	.team-building-desktop:target .team-building-desktop-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	#strengths {
+	}
+	#weaknesses {
+	}
 	/*BIOGRAPHY*/
 	.flex-biography{
 		display: flex;
@@ -228,6 +251,7 @@
 	}
 	.box-biography {
 		width: 20%;
+	}
 
 	/*CABECERA*/
 	.logotype-title-mobile {
@@ -282,6 +306,7 @@
 	.footlink{
 		font-size: 16px;
 	}
+
 }
 /*
 
