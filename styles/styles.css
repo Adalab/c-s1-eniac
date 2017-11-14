@@ -269,17 +269,18 @@
 		padding: 0;
 		color: #e8e8e8;
 	}
-	/*principal*/
-.images-desktop {
-	display:flex;
-	width; 100%;
-	margin: auto;
-	max-width: 768px;
+/*intro*/
+.box-intro-mobile {
+background-image: url(https://www.placehold.it/1114x600);
+background-repeat: no-repeat;
+background-position: center center;
+width: 100%;
+height: 300px;
 }
-
-	.images {
-		display: none;
-	}
+.images {
+	display: none;
+}
+	/*principal*/
 
 	.knew-more {
 		list-style: none;
