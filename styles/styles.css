@@ -296,6 +296,7 @@
 .box-intro-mobile {
 	background-image: url(https://www.placehold.it/1114x300);
 	background-repeat: no-repeat;
+	background-position: center center;
 	width: 100%;
 	height: 300px;
 	display: flex;
