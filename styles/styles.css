@@ -1,5 +1,4 @@
 /*estilos generales*/
-
 .basic-style {
 	background-color: #FFFFFF;
 	font-family: georgia, serif;
@@ -35,7 +34,6 @@
 	padding-right: 25px;
 	box-sizing: border-box;
 }
-
 .logotype-title-mobile {
 	color: #e8e8e8;
 	font-size: 32px;
@@ -173,7 +171,7 @@
 	padding: 0px;
 }
 .twitter{
-	background-image: url(/images/twitter-icon.png);
+	background: url('../images/twitter-icon.png');
 }
 .twitter-icon {
 	height: 40px;
@@ -248,15 +246,6 @@
 	}
 	#weaknesses {
 	}
-	/*BIOGRAPHY*/
-	.flex-biography{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.box-biography {
-		width: 20%;
-	}
-
 	/*CABECERA*/
 	.logotype-title-mobile {
 		display: none;
@@ -264,7 +253,14 @@
 	.menu {
 		display: none;
 	}
-
+	/*BIOGRAPHY*/
+	.flex-biography{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.box-biography {
+		width: 40%;
+	}
 	.menu-desktop {
 		display: flex;
 		flex-direction: row;
@@ -273,7 +269,9 @@
 		padding: 0;
 		color: #e8e8e8;
 	}
+
 /*intro*/
+<<<<<<< HEAD
 .box-intro-mobile-image {
 	display: block;
 	width:100%;
@@ -301,8 +299,19 @@
 .images {
 	display: none;
 }
+=======
+	.box-intro-mobile {
+		background-image: url(https://www.placehold.it/1114x600);
+		background-repeat: no-repeat;
+		background-position: center center;
+		width: 100%;
+		height: 300px;
+	}
+	.images {
+		display: none;
+	}
+>>>>>>> f0d1e0fb609fe4126a21c4fae8e3acb1b216dc8a
 	/*principal*/
-
 	.knew-more {
 		list-style: none;
 		padding: 10px;
@@ -321,6 +330,16 @@
 	}
 	#knew-more-click{
 	}
+	/*principal*/
+	.images-desktop {
+		display:flex;
+		width; 100%;
+		margin: auto;
+		max-width: 768px;
+	}
+	.images {
+		display: none;
+	}
 	/*FOOTER*/
 	.foot {
 		flex-direction: row;
@@ -328,26 +347,14 @@
 	.footlink{
 		font-size: 16px;
 	}
-
 }
-/*
-
-.menu-movil {
-	position: relative;
-	text-decoration: none;
+@media all and (min-width: 1040px){
+/*BIOGRAPHY*/
+	.flex-biography{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.box-biography {
+		width: 20%;
+	}
 }
-.menu-expand {
-	position: absolute;
-	top: 200%;
-	display: none;
-	list-style: none;
-	padding: 10px;
-}
-#menu-movil-link {
-}
-.menu-movil:target .menu-expand {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	transition: .3s all ease-in;
-}*/
