@@ -13,15 +13,12 @@
 .link:hover {
 	font-weight: bold;
 }
-
 .link:focus {
 	font-weight: bold;
 }
-
 .basic-content {
 	font-size: 16px;
 }
-
 /*fin estilos generales*/
 
 /*cabecera*/
@@ -38,11 +35,8 @@
 	padding-right: 25px;
 	box-sizing: border-box;
 }
-.logotype-title-mobile {
-=======
 
-.logotype-title {
->>>>>>> 5a23fc016d9a42ba2a9ba6b59f6433daa6ce8c93
+.logotype-title-mobile {
 	color: #e8e8e8;
 	font-size: 32px;
 	padding: 10px;
@@ -50,15 +44,12 @@
 	flex-grow:1;
 	text-align: center;
 }
-<<<<<<< HEAD
 .logotype-title-desktop {
 	display: none;
 }
 .team-building-desktop {
 	display: none;
 }
-=======
->>>>>>> 5a23fc016d9a42ba2a9ba6b59f6433daa6ce8c93
 .menu {
 	list-style: none;
 	padding: 10px;
@@ -91,7 +82,6 @@
 	justify-content: flex-start;
 	transition: .3s all ease-in;
 }
-
 .menu-particular {
 	padding-right: 20px;
 	padding-bottom: 20px;
@@ -100,20 +90,16 @@
 	color: #e8e8e8;
 	text-decoration: none;
 }
-
 .menu-desktop {
 	display: none;
 }
-
 .menu-desktop-specific {
 	padding: 10px;
 }
-
 .menu-desktop-specific a {
 	text-decoration: none;
 	color: #e8e8e8;
 }
-
 /*fin cabecera*/
 
 /*intro*/
@@ -154,7 +140,6 @@
 /*fin fortalezas y debilidades*/
 
 /*biografias*/
-
 .box-biography {
 	width: 85%;
 	margin: auto;
@@ -165,7 +150,6 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
 .photo {
 	width: 100px;
 	height: 100px;
@@ -201,7 +185,6 @@
 	height: 40px;
 	width: 40px;
 }
-
 /*fin biografias*/
 
 /*Footer*/
@@ -232,9 +215,7 @@
 /*Fin footer*/
 /*MEDIAQUERIES*/
 @media all and (min-width: 768px){
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 	.logotype-title-desktop {
 		display: block;
 	}
@@ -265,10 +246,6 @@
 	#weaknesses {
 	}
 }
-=======
-=======
-
->>>>>>> d84e445aedf657cda5fe18fbfdbf847d57699d26
 	/*BIOGRAPHY*/
 	.flex-biography{
 		display: flex;
@@ -276,13 +253,8 @@
 	}
 	.box-biography {
 		width: 20%;
-<<<<<<< HEAD
->>>>>>> 5a23fc016d9a42ba2a9ba6b59f6433daa6ce8c93
-=======
-=======
 	}
 
->>>>>>> d84e445aedf657cda5fe18fbfdbf847d57699d26
 	/*CABECERA*/
 	.logotype-title-mobile {
 		display: none;
@@ -298,7 +270,6 @@
 		padding: 0;
 		color: #e8e8e8;
 	}
->>>>>>> 5f00e9ffa6dc525d9d976bdb679bcfc5dc4a9341
 
 	/*principal*/
 .images-desktop {
@@ -335,8 +306,7 @@
 	.footlink{
 		font-size: 16px;
 	}
-<<<<<<< HEAD
-=======
+
 }
 /*
 
@@ -359,4 +329,3 @@
 	justify-content: flex-start;
 	transition: .3s all ease-in;
 }*/
->>>>>>> 5a23fc016d9a42ba2a9ba6b59f6433daa6ce8c93
