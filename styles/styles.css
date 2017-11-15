@@ -48,9 +48,6 @@
 .team-building-desktop {
 	display: none;
 }
-.team-building-desktop-strengths:target .team-building-desktop-text{
-	display: block;
-}
 .menu {
 	list-style: none;
 	padding: 10px;
@@ -219,30 +216,6 @@
 	.logotype-title-desktop {
 		display: block;
 	}
-	.team-building-mobile {
-		display: none;
-	}
-	.team-building-desktop {
-		display: flex;
-		flex-direction: row;
-	}
-	.team-building-desktop-text {
-		display: none;
-	}
-	.team-building-desktop-strengths, .team-building-desktop-weaknesses {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		border: 2px solid #181818;
-		padding: 10px;
-	}
-	.team-building-desktop:target .team-building-desktop-text {
-		display: block;
-	}
-	#strengths {
-	}
-	#weaknesses {
-	}
 	/*CABECERA*/
 	.logotype-title-mobile {
 		display: none;
@@ -266,7 +239,6 @@
 		padding: 0;
 		color: #e8e8e8;
 	}
-
 /*intro*/
 	.box-intro-mobile {
 		background-image: url(https://www.placehold.it/1114x600);
@@ -297,7 +269,33 @@
 	}
 	#knew-more-click{
 	}
+	/*Fortalezas y debilidades*/
+	.team-building-mobile  {
+		display: none;
+	}
+	.team-building-desktop-box {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.team-building-desktop {
+		border: 2px solid #181818;
+		margin: 10px;
+		flex-basis: 50%;
+		text-align: center;
+	}
+	.team-building-desktop-text {
+		display: none;
+	}
+	.team-building-desktop:target .team-building-desktop-text{
+		display: block;
+	}
+	#strengths {
+	}
+	#weaknesses {
+	}
 	/*principal*/
+
 	.images-desktop {
 		display:flex;
 		width; 100%;
