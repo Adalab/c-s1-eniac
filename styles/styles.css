@@ -336,21 +336,6 @@
 	#knew-more-click{
 	}
 
-	/*Fortalezas y debilidades*/
-	.team-building-mobile  {
-		display: none;
-	}
-	.team-building-desktop-box {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-	}
-	.team-building-desktop {
-		border: 2px solid #181818;
-		margin: 10px;
-		flex-basis: 40%;
-		text-align: center;
-	}
 
 		/*principal*/
 	.images {
