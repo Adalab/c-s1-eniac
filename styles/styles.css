@@ -173,7 +173,7 @@
 	padding: 0px;
 }
 .twitter a{
-	background: url('../images/twitter.png');
+	background: url('../images/twitter3.png');
 	overflow: hidden;
 	display: block;
 	background-size: 40px 40px;
@@ -182,7 +182,7 @@
 	width: 40px;
 }
 .linkedin a{
-	background: url('../images/link.png');
+	background: url('../images/linkedin3.png');
 	overflow: hidden;
 	display: block;
 	background-size: 40px 40px;
@@ -191,7 +191,7 @@
 	width: 40px;
 }
 .github a{
-	background: url('../images/git.png');
+	background: url('../images/github3.png');
 	overflow: hidden;
 	display: block;
 	background-size: 40px 40px;
@@ -200,7 +200,7 @@
 	width: 40px;
 }
 .gmail a{
-	background: url('../images/gmail_2.png');
+	background: url('../images/gmail3.png');
 	overflow: hidden;
 	display: block;
 	background-size: 40px 40px;
