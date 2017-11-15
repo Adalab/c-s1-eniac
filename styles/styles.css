@@ -45,11 +45,8 @@
 .logotype-title-desktop {
 	display: none;
 }
-.team-building-desktop {
+.team-building-desktop-box {
 	display: none;
-}
-.team-building-desktop-strengths:target .team-building-desktop-text{
-	display: block;
 }
 .menu {
 	list-style: none;
@@ -236,33 +233,8 @@
 /*Fin footer*/
 /*MEDIAQUERIES*/
 @media all and (min-width: 768px){
-	.team-building-mobile {
-		display: none;
-	}
-	.team-building-desktop {
-		display: flex;
-		flex-direction: row;
-	}
-	.team-building-desktop-text {
-		display: block;
-	}
-	.team-building-desktop-strengths, .team-building-desktop-weaknesses {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		border: 2px solid #181818;
-		padding: 10px;
-	}
-	.team-building-desktop:target .team-building-desktop-text {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-	}
-	#strengths {
-	}
-	#weaknesses {
-	}
-	/*CABECERA*/
+
+		/*CABECERA*/
 	.logotype-title-mobile {
 		display: none;
 	}
@@ -285,7 +257,6 @@
 		padding: 0;
 		color: #e8e8e8;
 	}
-
 /*intro*/
 .main-content-desktop {
 	display: flex;
@@ -316,6 +287,22 @@
 .images {
 	display: none;
 }
+/*Fortalezas y debilidades*/
+.team-building-mobile {
+	display: none;
+}
+.team-building-desktop-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.team-building-desktop {
+	border: 2px solid #181818;
+	margin: 10px;
+	flex-basis: 50%;
+	text-align: center;
+}
+
 	/*principal*/
 	.knew-more {
 		list-style: none;
@@ -335,7 +322,24 @@
 	}
 	#knew-more-click{
 	}
-	/*principal*/
+	/*Fortalezas y debilidades*/
+	.team-building-mobile  {
+		display: none;
+	}
+	.team-building-desktop-box {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.team-building-desktop {
+		border: 2px solid #181818;
+		margin: 10px;
+		flex-basis: 40%;
+		text-align: center;
+	}
+
+		/*principal*/
+
 	.images-desktop {
 		display:flex;
 		width; 100%;
