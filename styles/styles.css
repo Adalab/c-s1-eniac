@@ -1,7 +1,10 @@
 /*estilos generales*/
+@import url('https://fonts.googleapis.com/css?family=Gudea');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
 .basic-style {
 	background-color: #FFFFFF;
-	font-family: georgia, serif;
+	font-family: 'Gudea', serif;
 	color: #555555;
 	margin: 0;
 }
@@ -35,6 +38,7 @@
 	box-sizing: border-box;
 }
 .logotype-title-mobile {
+	font-family: 'Berkshire Swash', serif;
 	color: #e8e8e8;
 	font-size: 32px;
 	padding: 10px;
@@ -106,6 +110,7 @@
 	margin: auto;
 }
 .phrase {
+	font-family: 'Berkshire Swash', serif;
 	color: #900C3F;
 	font-size: 20px;
 	font-weight: bold;
@@ -339,13 +344,6 @@
 	}
 
 		/*principal*/
-
-	.images-desktop {
-		display:flex;
-		width; 100%;
-		margin: auto;
-		max-width: 768px;
-	}
 	.images {
 		display: none;
 	}
