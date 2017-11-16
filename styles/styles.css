@@ -11,6 +11,7 @@
 .link {
 	font-size: 16px;
 	text-decoration: none;
+	color: #900C3F;
 }
 .link:hover {
 	font-weight: bold;
@@ -320,11 +321,7 @@
 }
 
 	/*principal*/
-	.knew-more {
-		list-style: none;
-		padding: 10px;
-		width: 100%;
-	}
+	
 	.bioparagraph-desktop{
 		display: none;
 		position: relative;
