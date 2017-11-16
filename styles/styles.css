@@ -171,9 +171,10 @@
 	justify-content: center;
 	list-style: none;
 	padding: 0px;
+
 }
 .twitter a{
-	background: url('../images/twitter3.png');
+	background: url('../images/twitter2.png');
 	overflow: hidden;
 	display: block;
 	background-size: 40px 40px;
@@ -182,7 +183,7 @@
 	width: 40px;
 }
 .linkedin a{
-	background: url('../images/linkedin3.png');
+	background: url('../images/linkedin2.png');
 	overflow: hidden;
 	display: block;
 	background-size: 40px 40px;
@@ -191,7 +192,7 @@
 	width: 40px;
 }
 .github a{
-	background: url('../images/github3.png');
+	background: url('../images/github2.png');
 	overflow: hidden;
 	display: block;
 	background-size: 40px 40px;
@@ -200,7 +201,7 @@
 	width: 40px;
 }
 .gmail a{
-	background: url('../images/gmail3.png');
+	background: url('../images/gmail2.png');
 	overflow: hidden;
 	display: block;
 	background-size: 40px 40px;
@@ -275,6 +276,8 @@
 .logotype-title-desktop {
 	display: block;
 	text-align: center;
+	font-family: 'Berkshire Swash';
+	font-size: 20px;
 }
 .box-intro-desktop {
 	width: 100%;
