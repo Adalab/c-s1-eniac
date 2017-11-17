@@ -2,34 +2,34 @@
 @import url('https://fonts.googleapis.com/css?family=Gudea');
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
 
-.basic-style {
+.basic-style{
 	background-color: #FFFFFF;
 	font-family: 'Gudea', serif;
 	color: #555555;
 	margin: 0;
 }
-.link {
+.link{
 	font-size: 16px;
 	text-decoration: none;
 	color: #900C3F;
 }
-.link:hover {
+.link:hover{
 	font-weight: bold;
 }
-.link:focus {
+.link:focus{
 	font-weight: bold;
 }
-.basic-content {
+.basic-content{
 	font-size: 16px;
 }
 /*fin estilos generales*/
 
 /*cabecera*/
-.logotype {
+.logotype{
 	background-color: #181818;
 	width: 100%;
 }
-.logotype-box {
+.logotype-box{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -38,7 +38,7 @@
 	padding-right: 25px;
 	box-sizing: border-box;
 }
-.logotype-title-mobile {
+.logotype-title-mobile{
 	font-family: 'Berkshire Swash', serif;
 	color: #e8e8e8;
 	font-size: 32px;
@@ -47,28 +47,35 @@
 	flex-grow:1;
 	text-align: center;
 }
-.logotype-title-desktop {
+.logotype-title-desktop{
 	display: none;
 }
-.team-building-desktop-box {
+.menu-desktop{
 	display: none;
 }
-.menu {
+.menu-desktop-specific{
+	padding: 10px;
+}
+.menu-desktop-specific a{
+	text-decoration: none;
+	color: #e8e8e8;
+}
+.menu{
 	list-style: none;
 	padding: 10px;
 	width: 100%;
 }
-.menu-icon {
-	text-decoration: none;
-	color: #e8e8e8;
-	width: 100%;
-}
-.menu-movil {
+.menu-movil{
 	position: relative;
 	color: #e8e8e8;
 	text-decoration: none;
 }
-.menu-expand {
+.menu-icon{
+	text-decoration: none;
+	color: #e8e8e8;
+	width: 100%;
+}
+.menu-expand{
 	position: absolute;
 	top: 200%;
 	background-color: #181818;
@@ -76,82 +83,71 @@
 	list-style: none;
 	padding: 10px;
 }
-#menu-movil-link {
-
+.menu-particular{
+	padding-right: 20px;
+	padding-bottom: 20px;
 }
-.menu-movil:target .menu-expand {
+.menu-particular a{
+	color: #e8e8e8;
+	text-decoration: none;
+}
+#menu-movil-link{
+}
+.menu-movil:target .menu-expand{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	transition: .3s all ease-in;
 }
-.menu-particular {
-	padding-right: 20px;
-	padding-bottom: 20px;
-}
-.menu-particular a {
-	color: #e8e8e8;
-	text-decoration: none;
-}
-.menu-desktop {
+/*fin cabecera*/
+/*intro con descripción*/
+.main-content-desktop{
 	display: none;
 }
-.menu-desktop-specific {
-	padding: 10px;
-}
-.menu-desktop-specific a {
-	text-decoration: none;
-	color: #e8e8e8;
-}
-/*fin cabecera*/
-
-/*intro*/
-.main-content {
+.main-content{
 	width: 90%;
 	margin: auto;
 }
-.phrase {
+.phrase{
 	font-family: 'Berkshire Swash', serif;
 	color: #900C3F;
 	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
 }
-.phrase a {
+.phrase a{
 	text-decoration: none;
 	color: #900C3F;
 }
-.cite {
+.cite{
 	font-size: 24px;
 	font-style: italic;
 }
-.images-desktop {
+.images-desktop{
 	display: none;
 }
-.images {
+.images{
 	float: right;
 	margin-right: 10px;
 	margin-left: 10px;
 }
-
-.box-intro-mobile-image {
-	display: none;
-}
-.main-content-desktop {
+.box-intro-mobile-image{
 	display: none;
 }
 /*Fin intro*/
-
 /*fortalezas y debilidades*/
-.skills-content {
+.skills-content{
 	padding-top: 10px;
 	width: 90%;
 	margin: auto;
 }
+.team-building-desktop-box{
+	display: none;
+}
 /*fin fortalezas y debilidades*/
 
 /*biografias*/
-.box-biography {
+.box-biography{
 	width: 85%;
 	margin: auto;
 	text-align: left;
@@ -161,18 +157,16 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-.photo {
+.photo{
 	width: 100px;
 	height: 100px;
 	margin: 0px;
 }
-
-.social-networks {
+.social-networks{
 	display: flex;
 	justify-content: center;
 	list-style: none;
 	padding: 0px;
-
 }
 .twitter a{
 	background: url('../images/twitter2.png');
@@ -211,9 +205,8 @@
 	width: 40px;
 }
 /*fin biografias*/
-
 /*Footer*/
-.foot {
+.foot{
 	background-color: #181818;
 	color: #e8e8e8;
 	padding: 5px;
@@ -231,7 +224,7 @@
 	font-size: 12px;
 	text-decoration: none;
 }
-.adalablog {
+.adalablog{
 	display: block;
 	margin: 14px auto;
 	max-width: 250px;
@@ -240,12 +233,11 @@
 /*Fin footer*/
 /*MEDIAQUERIES*/
 @media all and (min-width: 768px){
-
 		/*CABECERA*/
-	.logotype-title-mobile {
+	.logotype-title-mobile{
 		display: none;
 	}
-	.menu {
+	.menu{
 		display: none;
 	}
 	/*BIOGRAPHY*/
@@ -253,10 +245,10 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
-	.box-biography {
+	.box-biography{
 		width: 40%;
 	}
-	.menu-desktop {
+	.menu-desktop{
 		display: flex;
 		flex-direction: row;
 		align-items: flex-start;
@@ -264,66 +256,64 @@
 		padding: 0;
 		color: #e8e8e8;
 	}
-/*intro*/
-.main-content-desktop {
-	display: flex;
-	background-image: url(../images/eniac-desktop.jpeg);
-	background-repeat: no-repeat;
-	background-position: 80% 55%;
-	background-size: cover;
-	width: 100%;
-	max-height: 300px;
-	margin: 0;
-}
-.logotype-title-desktop {
-	display: block;
-	text-align: center;
-	font-family: 'Berkshire Swash';
-	font-size: 20px;
-}
-.box-intro-desktop {
-	width: 100%;
-	height: 300px;
-	display: flex;
-	align-items: center;
-}
-.box-intro-desktop-text {
-	width: 300px;
-	height: 180px;
-	background-color: rgba(232, 232, 232, 0.8);
-	margin-left: 20px;
-	box-sizing: border-box;
-	border-radius: 10px;
-}
-.images {
-	display: none;
-}
+	/*intro*/
+	.main-content-desktop{
+		display: flex;
+		background-image: url(../images/eniac-desktop.jpeg);
+		background-repeat: no-repeat;
+		background-position: 80% 55%;
+		background-size: cover;
+		width: 100%;
+		max-height: 300px;
+		margin: 0;
+	}
+	.logotype-title-desktop{
+		display: block;
+		text-align: center;
+		font-family: 'Berkshire Swash';
+		font-size: 20px;
+	}
+	.box-intro-desktop{
+		width: 100%;
+		height: 300px;
+		display: flex;
+		align-items: center;
+	}
+	.box-intro-desktop-text{
+		width: 300px;
+		height: 180px;
+		background-color: rgba(232, 232, 232, 0.8);
+		margin-left: 20px;
+		box-sizing: border-box;
+		border-radius: 10px;
+	}
+	.images{
+		display: none;
+	}
 /*Fortalezas y debilidades*/
-.team-building-mobile {
-	display: none;
-}
-.team-building-desktop-box {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	.team-building-mobile{
+		display: none;
+	}
+	.team-building-desktop-box{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.team-building-desktop{
+		margin: 10px;
+		flex-basis: 50%;
+		text-align: center;
+		background-color: rgba(232, 232, 232, .6);
+		padding: 10px;
+		border-radius: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.strengths-title, .weaknesses-title{
+		color: #900C3F;
+	}
 
-}
-.team-building-desktop {
-	margin: 10px;
-	flex-basis: 50%;
-	text-align: center;
-	background-color: rgba(232, 232, 232, .6);
-	padding: 10px;
-	border-radius: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-.strengths-title, .weaknesses-title {
-	color: #900C3F;
-}
-
-	/*principal*/
-
+/*principal*/
 	.bioparagraph-desktop{
 		display: none;
 		position: relative;
@@ -337,14 +327,11 @@
 	}
 	#knew-more-click{
 	}
-
-
-		/*principal*/
-	.images {
+	.images{
 		display: none;
 	}
 	/*FOOTER*/
-	.foot {
+	.foot{
 		flex-direction: row;
 	}
 	.footlink{
@@ -357,7 +344,7 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
-	.box-biography {
+	.box-biography{
 		width: 20%;
 	}
 }
