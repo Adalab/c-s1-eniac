@@ -240,22 +240,6 @@
 	.menu{
 		display: none;
 	}
-	/*BIOGRAPHY*/
-	.flex-biography{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.box-biography{
-		width: 40%;
-	}
-	.menu-desktop{
-		display: flex;
-		flex-direction: row;
-		align-items: flex-start;
-		list-style: none;
-		padding: 0;
-		color: #e8e8e8;
-	}
 	/*intro*/
 	.main-content-desktop{
 		display: flex;
@@ -279,6 +263,9 @@
 		display: flex;
 		align-items: center;
 	}
+	.cite {
+		display: none;
+	}
 	.box-intro-desktop-text{
 		width: 300px;
 		height: 180px;
@@ -289,6 +276,23 @@
 	}
 	.images{
 		display: none;
+	}
+
+	/*BIOGRAPHY*/
+	.flex-biography{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.box-biography{
+		width: 40%;
+	}
+	.menu-desktop{
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		list-style: none;
+		padding: 0;
+		color: #e8e8e8;
 	}
 /*Fortalezas y debilidades*/
 	.team-building-mobile{
